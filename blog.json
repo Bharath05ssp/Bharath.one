@@ -1,0 +1,26 @@
+{
+  "blogPosts": [
+    {
+      "id": 1,
+      "title": "Getting Started with CSS",
+      "bannerImage": "images/blog/css-intro.jpg",
+      "category": "CSS",
+      "date": "2024-06-01",
+      "author": "Jane Doe",
+      "excerpt": "Learn the basics of CSS and how to style your first web page.",
+      "content": "CSS (Cascading Style Sheets) is used to style and layout web pages. In this post, we'll cover the fundamentals to get you started.",
+      "tags": ["css", "web development", "basics"]
+    },
+    {
+      "id": 2,
+      "title": "Responsive Design Tips",
+      "bannerImage": "images/blog/responsive-design.jpg",
+      "category": "Web Design",
+      "date": "2024-06-10",
+      "author": "John Smith",
+      "excerpt": "Make your website look great on any device with these responsive design strategies.",
+      "content": "Responsive design ensures your website adapts to different screen sizes. Here are some tips and best practices.",
+      "tags": ["responsive", "design", "css"]
+    }
+  ]
+}
