@@ -1038,7 +1038,7 @@
   .blog-posts { margin-bottom: 10px; }
   
   .blog-posts-list {
-    display: grid;
+    display: list-item;
     grid-template-columns: 1fr;
     gap: 20px;
   }
