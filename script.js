@@ -113,6 +113,15 @@ for (let i = 0; i < filterBtn.length; i++) {
   });
 
 }
+document.querySelectorAll('.gallery-item img').forEach(img => {
+  img.addEventListener('click', () => {
+    const modal = document.createElement('div');
+    modal.classList.add('gallery-modal');
+    modal.innerHTML = `<img src="${img.src}" class="gallery-modal-img">`;
+    document.body.appendChild(modal);
+    modal.addEventListener('click', () => modal.remove());
+  });
+});
 
 
 
