@@ -2112,3 +2112,24 @@
 .buy-btn:hover {
   transform: scale(1.05);
 }
+.hero {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.hero h1 {
+  font-size: 28px;
+  color: #f5c542;
+}
+
+.hero p {
+  color: #ccc;
+  margin: 10px 0;
+}
+
+.hero button {
+  background: #ff4c60;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+}
