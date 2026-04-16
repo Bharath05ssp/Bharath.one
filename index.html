@@ -895,29 +895,36 @@
 
   <section class="shop-container">
 
-    <div class="box-card">
-      <img src="https://picsum.photos/300?random=11" alt="Basic Box">
-      <h3>Basic Mystery Box</h3>
-      <p>Surprise items worth more than what you pay!</p>
-      <h4>₹299</h4>
-      <button onclick="buyNow('Basic Box',299)">Buy Now</button>
-    </div>
+  <div class="box-card premium">
 
-    <div class="box-card">
-      <img src="https://picsum.photos/300?random=12" alt="Premium Box">
-      <h3>Premium Mystery Box</h3>
-      <p>Better surprises, gadgets & goodies!</p>
-      <h4>₹599</h4>
-      <button onclick="buyNow('Premium Box',599)">Buy Now</button>
-    </div>
+  <div class="badge">🔥 Trending</div>
 
-    <div class="box-card">
-      <img src="https://picsum.photos/300?random=13" alt="Ultimate Box">
-      <h3>Ultimate Mystery Box</h3>
-      <p>High-value premium items 🔥</p>
-      <h4>₹999</h4>
-      <button onclick="buyNow('Ultimate Box',999)">Buy Now</button>
-    </div>
+  <img src="https://picsum.photos/400?random=11" alt="Basic Box">
+
+  <h3>Basic Mystery Box</h3>
+
+  <p class="tagline">Pay ₹299 → Get ₹800+ surprise 🎁</p>
+
+  <div class="price">₹299</div>
+
+  <p class="stock">⚡ Only 5 left today</p>
+
+  <button class="buy-btn" onclick="buyNow('Basic Box',299)">
+    🎁 Unlock Mystery
+  </button>
+
+</div>
+      <section class="hero">
+
+  <h1>🎁 Mystery Box Experience</h1>
+
+  <p>Pay less. Get more. Every box is a surprise.</p>
+
+  <button onclick="document.querySelector('[data-page=shop]').scrollIntoView({behavior:'smooth'})">
+    🔥 Explore Boxes
+  </button>
+
+</section>
 
   </section>
 
